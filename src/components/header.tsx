@@ -5,7 +5,7 @@ export default function Header({ links }: any) {
     return (
         <div className="flex">
             <header className="flex-1">
-                <h1 className="text-2xl">André Piantino</h1>
+                <h1 className="text-2xl">ANDRÉ PIANTINO</h1>
             </header>
             <nav>
                 <ul className="flex gap-8">
