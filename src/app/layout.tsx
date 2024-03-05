@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description: "Site pessoal na área de Desenvolvimento de Sofware",
 };
 
+const links = [
+  {'href': '/', 'name': 'Início'},
+  {'href': '/sobre', 'name': 'Sobre'},
+  {'href': '/projetos', 'name': 'Projetos'},
+  {'href': '/reconhecimentos', 'name': 'Reconhecimentos'},
+];
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,8 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
-        <Header></Header>
+      <body className={inter.className + ' p-6 space-y-5'}>
+        <Header links={links}></Header>
         {children}
       </body>
     </html>
