@@ -1,8 +1,10 @@
+import Title from "@/components/title";
+
 export default function About() {
   return (
     <main>
       <section>
-        <h1>Contato</h1>
+      <Title>Contato</Title>
         <p>...</p>
       </section>
     </main>

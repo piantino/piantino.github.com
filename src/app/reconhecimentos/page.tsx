@@ -1,8 +1,10 @@
+import Title from "@/components/title";
+
 export default function About() {
   return (
     <main>
       <section>
-        <h1>Reconhecimentos</h1>
+        <Title>Reconhecimentos</Title>
         <p>...</p>
       </section>
     </main>
