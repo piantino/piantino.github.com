@@ -1,0 +1,20 @@
+[
+  {
+    "name": "keycloak-protocol-cas",
+    "href": "https://github.com/jacekkow/keycloak-protocol-cas",
+    "image": "/img/projects/keycloak-protocol-cas.png",
+    "description": "Melhoria nos Logs do plugin"
+  },
+  {
+    "name": "qt-common",
+    "href": "https://github.com/open-eid/qt-common",
+    "image": "/img/projects/qt-common.png",
+    "description": "Tradução para portugês"
+  },
+  {
+    "name": "mkdocs",
+    "href": "https://github.com/mkdocs/mkdocs",
+    "image": "/img/projects/mkdocs.png",
+    "description": "Tradução para portugês"
+  }
+]

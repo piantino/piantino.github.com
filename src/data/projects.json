@@ -1,0 +1,8 @@
+[
+    {
+        "name": "keycloak-db-user-federation",
+        "href": "https://github.com/piantino/keycloak-db-user-federation",
+        "image": "/img/projects/keycloak-db-user-federation.png",
+        "description": "Plugin para keycloak que importa usuários para dentro da base local."
+    }
+]
