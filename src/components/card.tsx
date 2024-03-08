@@ -7,7 +7,7 @@ export default function Card({ children, title, href, image, className }: any) {
     console.info(cardImage)
 
     return (
-        <div className={className + " bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"}>
+        <div className={className + " bg-white border border-gray-200 rounded-lg shadow"}>
             <a href={href}>
                 <div style={{ width: '100%', height: '200px', position: 'relative' }}>
                     <Image src={cardImage} alt={title} fill={true} style={{ objectFit: 'fill' }} className="rounded-t-lg"></Image>
@@ -15,9 +15,9 @@ export default function Card({ children, title, href, image, className }: any) {
             </a>
             <div className="p-5">
                 <a href={href}>
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{title}</h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700">
                     {children}
                 </p>
             </div>
