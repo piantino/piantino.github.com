@@ -4,7 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true
     },
-    basePath: "/piantino"
+    basePath: "/"
 };
 
 export default nextConfig;
