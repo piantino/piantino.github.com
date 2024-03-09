@@ -1,4 +1,4 @@
-[![publish-to-github-pages](https://github.com/piantino/piantino/actions/workflows/publish.yml/badge.svg)](https://github.com/piantino/piantino/actions/workflows/publish.yml)
+[![publish-to-github-pages](https://github.com/piantino/piantino.github.com/actions/workflows/publish.yml/badge.svg)](https://github.com/piantino/piantino.github.com/actions/workflows/publish.yml)
 
 ## Hi there 👋, I'm Andre Piantino!
 
