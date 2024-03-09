@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Piantino Portfólio",
-  description: "Site pessoal na área de Desenvolvimento de Sofware",
+  description: "Site pessoal na área de Desenvolvimento de Software",
 };
 
 const links = [
