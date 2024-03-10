@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 };
 
 const links = [
-  {'href': '/', 'name': 'Início'},
-  {'href': '/sobre', 'name': 'Sobre'},
-  {'href': '/projetos', 'name': 'Projetos'},
-  {'href': '/reconhecimentos', 'name': 'Reconhecimentos'},
+  { 'href': '/', 'name': 'Início' },
+  { 'href': '/sobre', 'name': 'Sobre' },
+  { 'href': '/projetos', 'name': 'Projetos' },
+  { 'href': '/reconhecimentos', 'name': 'Reconhecimentos' },
 ];
 
 export default function RootLayout({
@@ -24,9 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className + ' p-6 space-y-5'}>
-        <Header links={links}></Header>
-        {children}
+      <body className={inter.className + " flex justify-center p-6 top"}>
+        <div className="space-y-5">
+          <Header links={links}></Header>
+          {children}
+        </div>
       </body>
     </html>
   );
